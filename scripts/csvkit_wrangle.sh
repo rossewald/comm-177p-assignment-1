@@ -8,8 +8,8 @@
 # of redirection (>>) as opposed to the simpler
 # redirect (>) which overwrites pre-existing content.
 # Because you're appending lines rather than over-writing,
-# the banks count will grow increasing large on subsequent runs
-# (unless you manually clear out failed_banks_ca.cs).
+# the banks count will grow increasingly large on subsequent runs
+# (unless you manually clear out failed_banks_ca.csv).
 
 # Get a CSV of all failed banks and save it to a local file called failed_banks.csv
 wget -O failed_banks.csv https://www.fdic.gov/bank/individual/failed/banklist.csv
